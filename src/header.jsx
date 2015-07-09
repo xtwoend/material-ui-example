@@ -68,6 +68,7 @@ var Header = React.createClass({
             { route: 'home', text: 'Home' },
             { type: MenuItem.Types.SUBHEADER, text: 'Matrial UI Component' },
             { route: 'button', text: 'Button' },
+            { route: 'date-picker', text: 'Date Picker' },
             { type: MenuItem.Types.SUBHEADER, text: 'About this app' },
             { route: 'about', text: 'About Material UI' },
             { 

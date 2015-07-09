@@ -14,6 +14,7 @@ var Header = require('./header');
 var AboutPage = require('./page/about.jsx');
 var HomePage = require('./page/home.jsx');
 var ButtonPage = require('./page/button.jsx');
+var DatePickerPage = require('./page/date-picker.jsx');
 
 //load tap event plugin
 injectTapEventPlugin();
@@ -53,6 +54,7 @@ var routes = (
     <Route name="home" path="/home" handler={HomePage}/>
     <Route name="about" path="/about" handler={AboutPage}/>
     <Route name="button" path="/button" handler={ButtonPage}/>
+    <Route name="date-picker" path="/date-picker" handler={DatePickerPage}/>
     <DefaultRoute handler={HomePage} />
   </Route>
 );
